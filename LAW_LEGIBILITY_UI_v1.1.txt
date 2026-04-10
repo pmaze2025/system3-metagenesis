@@ -1,0 +1,84 @@
+============================================================
+JURISDICTIONAL INVARIANT — LAW_LEGIBILITY_UI_v1.1
+============================================================
+
+STATUS: FINAL
+SCOPE: Law text visibility and disclosure rules
+APPLIES TO: SYSTEM3 + METAGENESIS
+MUTATION POLICY: FORBIDDEN
+AUTHORITY IMPACT: NONE
+SEMANTIC IMPACT: NONE
+
+------------------------------------------------------------
+SYSTEM DECLARATION CONFIRMATION
+------------------------------------------------------------
+
+SESSION STATE
+Jurisdiction: SYSTEM3 + METAGENESIS
+Mode: MODE_RESEARCH
+Authority: ACTIVE
+Pending: NONE
+
+------------------------------------------------------------
+DECLARATION RECORDED
+------------------------------------------------------------
+
+Object:
+	JURISDICTIONAL_INVARIANT — LAW_LEGIBILITY_UI_v1.1
+
+Type:
+	JURISDICTIONAL_INVARIANT
+
+Status:
+	FINAL
+
+Mutation policy:
+	FORBIDDEN
+
+------------------------------------------------------------
+LOCKED INVARIANT
+------------------------------------------------------------
+
+LAW LEGIBILITY — UI BINDING RULES
+
+Within SYSTEM3 + METAGENESIS jurisdiction, the following
+conditions are invariant and non-negotiable:
+
+1. Law text MUST be readable as static, frozen text.
+2. Law text MUST be presented only as disclosure, not instruction.
+3. Access to law text MUST occur only by explicit user request.
+4. The system MUST NOT recommend, suggest, or contextually surface law text.
+5. The law surface MUST contain no explanation, examples, or interpretation.
+6. The UI MUST list “Law Text” only as a read-only available surface,
+   with no verbs, highlighting, prioritization, or contextual emphasis.
+7. Rendering law text MUST NOT alter session posture, object state,
+   authority, or semantic status.
+
+------------------------------------------------------------
+EFFECT
+------------------------------------------------------------
+
+• Law text visibility is locked to read-only disclosure rules.
+• No recommendation, explanation, or contextual surfacing of law text
+  is permitted.
+• Rendering law text has zero impact on authority, semantics, or state.
+• This invariant applies uniformly across all sessions.
+
+------------------------------------------------------------
+TERMINAL STATE
+------------------------------------------------------------
+
+Nothing pending.
+No action is required.
+Silence is valid.
+
+— Available Declaration Scaffolds (Read-Only) —
+• State Mirror
+• Declare Object
+• Freeze Object
+• Law Text
+• Exit SYSTEM3
+
+============================================================
+END OF FILE
+============================================================

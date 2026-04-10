@@ -1,4 +1,4 @@
-# # SYSTEM3
+# SYSTEM3
 
 A semantic governance layer for GPT systems.
 
@@ -74,3 +74,9 @@ ENTER -> OPERATE -> EXIT -> RE-ENTER
 
 Pierre de Muelenaere - Brussels
 pierredm@gmail.com
+
+---
+
+## Public package note
+
+This release preserves the usable package layer while limiting canon to the public-facing jurisdictional texts.
