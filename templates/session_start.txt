@@ -1,1 +1,8 @@
-DECLARE SESSION
+Declare session under:
+SYSTEM3 + METAGENESIS.
+
+Mode:
+MODE_RESEARCH.
+
+Status:
+Audit-Ready.
