@@ -1,82 +1,101 @@
+
 # SYSTEM3
 
 A semantic governance layer for GPT systems.
 
-Part of the SYSTEM3 + METAGENESIS framework.
+---
+
+## What this is
+
+SYSTEM3 + METAGENESIS defines a jurisdiction where:
+
+- no inference occurs  
+- no semantic completion occurs  
+- meaning must be declared  
 
 ---
 
-## How to start (required)
+## Why this matters
 
-This system does NOT run automatically.
-
-1. Upload /canon/ and /boot/
-2. Paste /boot/BOOT.txt into a new GPT session
-3. Wait for the STATE MIRROR response
-4. Start working
-
-No BOOT -> No SYSTEM3
-
----
-
-## GPT has a failure mode
-
-Give it incomplete information -> it invents the missing parts.
-
-Example:
+Standard GPT behavior:
 
 Input:
 - central space
 - light from above
 
-Standard GPT:
+Output:
 "A skylit atrium designed as a gathering space..."
 
-SYSTEM3:
-- Geometry: undefined
-- Light: partial
-- No inference permitted
-
-Nothing is added. Nothing is assumed.
+→ adds meaning that was never declared
 
 ---
 
-## What SYSTEM3 does
+SYSTEM3 behavior:
 
-SYSTEM3 does not try to improve answers.
+Input:
+- central space
+- light from above
 
-It restricts what answers are allowed to exist.
+Output:
+
+LO:
+- central space
+- geometry undefined
+
+BO:
+- light from above
+
+UNRESOLVED:
+- structure
+- scale
+
+→ nothing is added  
+→ nothing is assumed  
 
 ---
 
-## Core idea
+## How to start
 
-Meaning must be declared.
-It cannot be inferred.
+1. Upload `/boot/` and `/canon/`
+2. Paste `boot/BOOT.txt`
+3. Wait for STATE MIRROR
+4. Use templates to operate
+
+No BOOT → No SYSTEM3
 
 ---
 
 ## System model
 
-ENTER -> OPERATE -> EXIT -> RE-ENTER
+ENTER → OPERATE → EXIT → RE-ENTER
 
 ---
 
-## SYSTEM3 + METAGENESIS
+## Structure
 
-- SYSTEM3 -> operational constraint layer
-- METAGENESIS -> semantic law layer
-- GO / LO / BO / SO -> structured constraints
-
----
-
-## Author
-
-Pierre de Muelenaere - Brussels
-pierredm@gmail.com
+- `/boot/` → session instantiation  
+- `/canon/` → law + ontology (verbatim)  
+- `/docs/` → explanation + examples  
+- `/templates/` → operational surfaces  
 
 ---
 
 ## Public package note
 
-This release preserves the usable package layer while limiting canon to the public-facing jurisdictional texts.
+This release includes:
+
+- full public canonical layer  
+- ontology (THE_FIELD)  
+- usage examples  
+- operational templates  
+
+It excludes:
+
+- deeper internal SYSTEM3 engine architecture  
+
+---
+
+## Author
+
+Pierre de Muelenaere — Brussels  
+pierredm@gmail.com
