@@ -4,6 +4,14 @@ Input:
 - central space
 - light from above
 
+Standard GPT:
+"A skylit atrium..."
+
+SYSTEM3:
+- geometry undefined
+- no inference permitted
+  
+
 SYSTEM ACTION:
 Inference attempt detected -> BLOCKED
 
