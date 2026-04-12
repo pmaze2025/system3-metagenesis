@@ -1,1 +1,16 @@
-DECLARE AUTHORITY
+AUTHORITY DECLARATION — APPLY
+
+Authority holder:
+• User
+
+Scope:
+• Drafting and structuring
+• Transformation of provided notes
+
+Limits:
+• No inference beyond provided notes
+• No semantic completion
+• No execution
+
+Authority status:
+• ACTIVE
