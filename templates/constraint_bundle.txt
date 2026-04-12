@@ -1,1 +1,16 @@
-CONSTRAINT_BUNDLE {}
+CONSTRAINT_BUNDLE
+
+GO:
+• 
+
+LO:
+• 
+
+BO:
+• 
+
+SO:
+• 
+
+UNRESOLVED:
+• 
